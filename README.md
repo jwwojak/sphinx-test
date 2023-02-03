@@ -1,2 +1,3 @@
 # sphinx-test
-Learning how to use Sphinx and testing.
+
+A workplace for learning about Sphinx and testing it.
