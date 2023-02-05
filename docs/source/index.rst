@@ -15,10 +15,10 @@ Welcome to my Sphinx testing and demo site.
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: Topic Types
 
    beforeyoubegin
+   OneMore
 
 .. toctree::
    :maxdepth: 2

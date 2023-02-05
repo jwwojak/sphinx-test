@@ -1,7 +1,7 @@
-Hello World
-============
+This is Another Page
+=====================
 
-This is a sample homepage.
+This is a sample page.
 
 What's Going On Here?
 ----------------------
