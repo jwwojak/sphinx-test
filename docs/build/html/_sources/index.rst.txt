@@ -3,20 +3,26 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Sphinx Test's documentation!
-=======================================
+Hello World
+============
+
+Welcome to my Sphinx testing and demo site.
+
+.. The toc uses the "hidden" option. This hides it from the homepage/landing page. I don't want a TOC on the landing page.
+
+.. toctree::
+   :hidden:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :hidden:
+   :caption: Topic Types
 
-Let's add some filler text.
+   beforeyoubegin
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Style Elements
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   file2
